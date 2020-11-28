@@ -1,0 +1,14 @@
+{
+    "mount": {
+        "public": "/",
+        "src": "/_dist_"
+    },
+    "plugins": [
+        "snowpack-plugin-elm",
+        ["@snowpack/plugin-build-script", {"cmd": "postcss", "input": [".css"], "output": [".css"]}]
+    ],
+    "devOptions": {
+        "open": "none",
+        "output": "stream"
+    }
+}
