@@ -10,4 +10,14 @@
 
 [X] serveur de dev
 
-[ ] build
+[x] build
+
+[X] page accueil
+
+[ ] licence
+
+[ ] readme -> tasks
+
+[ ] readme
+
+[x] purgeecss

@@ -4,8 +4,9 @@
         "src": "/_dist_"
     },
     "plugins": [
-        "snowpack-plugin-elm",
-        ["@snowpack/plugin-build-script", {"cmd": "postcss", "input": [".css"], "output": [".css"]}]
+        ["snowpack-plugin-elm",{ "verbose": true, "debugger": "dev", "optimize": "build" }],
+        ["@snowpack/plugin-build-script", {"cmd": "postcss", "input": [".css"], "output": [".css"]}],
+        ["@snowpack/plugin-optimize", {}]
     ],
     "devOptions": {
         "open": "none",

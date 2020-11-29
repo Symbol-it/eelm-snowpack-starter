@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+    @apply text-base font-medium rounded-lg p-3;
+  }
+  
+  .btn--primary {
+    @apply bg-blue-300 text-black;
+  }
+  
+  .btn--secondary {
+    @apply bg-gray-100 text-black;
+  }
